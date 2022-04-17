@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
+:root{
+	--background: linear-gradient(135deg,#96e4df  0%, #764ba298 100%);
+	--color-primary:#257025;
+	--color-secondary:#169816;
+	--boton-padding: 20px 40px;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 80px 0;
+	max-width: 1200px;
+}
+
+.subtitle{
+	color: var(--color-primary);
+	font-size:2.5rem;
+	margin-bottom: 35px;
+}
+
+.hero{
+	height: 100vh;
+	background-image: url('../assets/banner2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	position: relative;
+}
+
+.hero .container{
+	padding: 0;
+}
+
+/*TODOS LOS NAVS*/
+
+.nav{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: flex-end;
+	height: 70px;
+	align-items: center;
+	font-weight: 700px;
+}
+
+
+.nav2{
+	display: flex;
+	justify-content: flex-start;
+	height: 70px;
+	align-items: center;
+	font-weight: 700px;
+	margin-left: 0px;
+}
+
+.nav2__logo{
+	margin-left: 10px;
+}
+
+.img__nav{
+	width: 90px;
+	height: 60px;
+	display: inline;
+}
+
+.nav--footer{
+	font-weight: 300;
+	justify-content: flex-start;
+}
+
+.nav1{
+	display: flex;
+	justify-content: flex-end;
+	height: 40px;
+	align-items: center;
+	font-weight: 700px;
+	margin-left: 20px;
+}
+.nav__items{
+	color: #fff;
+	text-decoration: none;
+	margin-right: 20px;
+	padding: 10px 15px;
+	font-weight: inherit;
+}
+
+.nav__items--cta{
+	color: #fff;
+	border:3px solid #fff;
+	padding: 10px 15px;
+}
+
+.nav__items--footer{
+	padding: 10px;
+}
+
+
+.hero__container{
+	display: flex;
+	height: calc(100vh - 70px);
+	align-items: center;
+	color: #fff;
+}
+
+.hero__texts{
+	width: 80%;
+	margin-bottom: 50px;
+}
+
+.hero__title{
+	font-size: 3.2rem;
+}
+.hero__subtitle{
+	font-size: 2rem;
+	font-weight: 300;
+	margin: 15px 0;
+
+}
+
+.peruflag{
+	width: 100px;
+	height: 70px;
+}
+
+.hero__cta{
+	display: inline-block;
+	background:#fff;
+	padding: var(--boton-padding);
+	color: var(--color-secondary);
+	text-decoration: none;
+	border-radius: 40px;
+}
+
+.hero__wave{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+}
+
+
+/*TODOS LOS NAVS*/
+
+.nav{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: flex-end;
+	height: 70px;
+	align-items: center;
+	font-weight: 700px;
+}
+
+
+.nav2{
+	display: flex;
+	justify-content: flex-start;
+	height: 70px;
+	align-items: center;
+	font-weight: 700px;
+	margin-left: 0px;
+}
+
+.nav2__logo{
+	margin-left: 10px;
+}
+
+.img__nav{
+	width: 90px;
+	height: 60px;
+	display: inline;
+}
+
+.nav--footer{
+	font-weight: 300;
+	justify-content: flex-start;
+}
+
+.nav1{
+	display: flex;
+	justify-content: flex-end;
+	height: 40px;
+	align-items: center;
+	font-weight: 700px;
+	margin-left: 20px;
+}
+.nav__items{
+	color: #fff;
+	text-decoration: none;
+	margin-right: 20px;
+	padding: 10px 15px;
+	font-weight: inherit;
+}
+
+.nav__items--cta{
+	color: #fff;
+	border:3px solid #fff;
+	padding: 10px 15px;
+}
+
+.nav__items--footer{
+	padding: 10px;
+}
+
+
+.hero__container{
+	display: flex;
+	height: calc(100vh - 70px);
+	align-items: center;
+	color: #fff;
+}
+
+.hero__texts{
+	width: 80%;
+	margin-bottom: 50px;
+}
+
+.hero__title{
+	font-size: 3.2rem;
+}
+.hero__subtitle{
+	font-size: 2rem;
+	font-weight: 300;
+	margin: 15px 0;
+
+}
+
+.hero__cta{
+	display: inline-block;
+	background:#fff;
+	padding: var(--boton-padding);
+	color: var(--color-secondary);
+	text-decoration: none;
+	border-radius: 40px;
+}
+
+.hero__wave{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+}
+
+
+.researcherperu__grid{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr;
+	column-gap: 30px;
+}
+
+.researcherperu__item{
+	width: 95%;
+	margin: 0 auto;
+	/*background: var(--background);
+	box-shadow: 0 8px 10px rgba(66,66,66,.5);*/
+	border-radius: 7px;
+	padding:30px 25px;
+	color: #fff;
+	margin-bottom: 50px;
+	max-width: 900px;
+}
+
+.researcherperu__person{
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.researcherperu__img{
+	width: 200px;
+	min-width: 200px;
+	height: 200px;
+	object-fit: cover;
+	object-position: top;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	margin-right: 30px;
+}
+
+.researcherperu__name{
+	color: black;
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+}
+
+.type_researcher{
+	color: black;
+	font-weight: 700;
+	margin-top: 10px;
+}
+
+.resenha{
+	color: black;
+	font-weight: 300;
+	text-align: justify;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*Footer*/
+
+.footer{
+	background: var(--background);
+}
+
+.footer__grid{
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+	grid-gap: 20px;
+	align-items: center;
+}
+
+.footer_title{
+	font-weight: 400;
+	color: #fff;
+	font-size: 2rem;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.footer__icons{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__container-icons{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	color: #fff;
+	text-align: center;
+	border: 1px solid;
+	border-radius: 50%;
+}
+
+.footer__icon{
+	color: inherit;
+	font-size: 30px;
+	text-decoration: none;
+	line-height: 60px;
+}
+
+.fab.footer__icon{
+	line-height: 60px;
+}
+
+/*Responsive desing*/
+
+@media screen and (max-width: 800px){
+	:root{
+		--boton-padding: 18px 40px;
+	}
+
+	.nav{
+		justify-content: right;
+		display: flex;
+	}
+
+	.nav__items--cta{
+		border:none;
+	}
+
+	.nav2{
+		display: none;
+	}
+
+	.nav__items {
+		font-weight: 400;
+		border-bottom: 1px solid #fff;
+		margin-right: 0;
+	}
+	
+	.nav__items--footer{
+		border:none;
+	}
+
+	.nav__items--cta{
+		display: none;
+	}
+
+	.hero__texts{
+		width: 100%;
+		margin-bottom: 80px;
+	}
+
+	.hero__title{
+	font-size: 2.5rem;
+	}
+
+	.hero__subtitle{
+	font-size: 1.5rem;
+	}
+
+	.subtitle{
+		font-size: 2rem;
+	}
+
+	.researcherperu__grid{
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.researcherperu__item{
+		display: grid;
+		margin-bottom: 1px;
+
+	}
+
+	.researcherperu__person{
+		display: grid;
+	}
+
+	.cont_res_img{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.researcherperu__name{
+		text-align: center;
+		font-size: 2rem;
+		margin-top: 40px;
+	}
+
+	.type_researcher{
+		text-align: center;
+		font-size: 1.5rem;
+	}
+
+	.footer{
+		margin-top: 75px;
+	}
+
+	.footer__grid{
+		grid-template-columns: 1fr;
+	}
+
+	.footer__contact{
+		grid-row:1/2;
+	}
+
+
+
+@media screen and (max-width: 300px){
+	:root{
+		--boton-padding: 18px 40px;
+	}
+
+	.nav{
+		justify-content: right;
+		display: flex;
+	}
+
+	.nav__items--cta{
+		border:none;
+	}
+
+	.nav2{
+		display: none;
+	}
+
+	.nav__items {
+		font-weight: 400;
+		border-bottom: 1px solid #fff;
+		margin-right: 0;
+	}
+	
+	.nav__items--footer{
+		border:none;
+	}
+
+	..nav__items--cta{
+		display: none;
+	}
+
+	.hero__texts{
+		width: 100%;
+		margin-bottom: 80px;
+	}
+
+	.hero__title{
+	font-size: 2rem;
+	}
+
+	.hero__subtitle{
+	font-size: 1.5rem;
+	}
+
+	.subtitle{
+		font-size: 2rem;
+	}
+
+	.researcherperu__grid{
+		width: 100%;
+	}
+
+	.researcherperu__item{
+		display: grid;
+		margin-bottom: 1px;
+	}
+
+	.researcherperu__person{
+		display: grid;
+	}
+
+	.researcherperu__img{
+		margin-bottom: 40px;
+		width: 80%;
+		justify-content: justify;
+		align-content: center;
+		text-align: center;
+		align-items: center;
+
+	}
+	.researcherperu__name{
+		text-align: center;
+		font-size: 2rem;
+	}
+
+	.type_researcher{
+		text-align: center;
+		font-size: 1.5rem;
+	}
+
+	.footer{
+		margin-top: 75px;
+	}
+
+	.footer__grid{
+		grid-template-columns: 1fr;
+	}
+
+	.footer__contact{
+		grid-row:1/2;
+	}
+}
